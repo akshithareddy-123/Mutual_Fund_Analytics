@@ -17,4 +17,9 @@ for file in os.listdir(folder):
         df = pd.read_csv(path)
 
         print("Shape:", df.shape)
+
+        print("\nData Types:")
+        print(df.dtypes)
+
+        print("\nFirst 5 Rows:")
         print(df.head())
